@@ -32,205 +32,415 @@
 </head>
 
 <body>
-  <a href="https://www.google.com" class="navbar-brand">
-    FOODHUB
-  </a>
-  <a href="https://www.google.com">
-    Sign In
-  </a>
-  <a href="https://www.google.com">
-    <i class="fa fa-shopping-bag fa-lg"></i>
-  </a>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="row row-red">
+        <div class="col-xs-12">
+          <div class="navbar-header navbar-btn">
+            <a href="https://www.google.com" class="navbar-brand padding-inside-left-md btn btn-link">
+              FOODHUB
+            </a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar navbar-nav navbar-right list-unstyled">
+              <li>
+                <p class="navbar-btn">
+                  <a href="https://www.google.com" class="btn btn-link">
+                    Sign In
+                  </a>
+                </p>
+              </p>
+            </li>
+            <li>
+              <p class="navbar-btn">
+                <a href="https://www.google.com" class="btn btn-link">
+                  <i class="fa fa-shopping-bag fa-lg"></i>
+                </a>
+              </p>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-  <h2>
-    Who delivers in your neighborhood?
-  </h2>
+  <div class="container-fluid">
+    <div class="row static text-center">
+      <img class="img-banner" src="assets/images/main-hero.jpg">
+    </div>
+    <div class="col-sm-offset-3 col-sm-6 margin-above-top-lg text-center text-white">
+      <h2>
+        Who delivers in your neighborhood?
+      </h2>
+      <p>Enter your address below.</p>
+    </div>
+    <div class="row row-gray text-center padding-inside-bottom-xl padding-inside-top-md">
+      <div class="col-md-4 col-md-offset-4">
+        <form>
+          <div class="form-group">
+            <div class="input-group">
+              <span class="input-group-addon" id="basic-addon-1">
+                <i class="fa fa-map-marker"></i>
+              </span>
 
-  <form>
-    <div>
-      <label>
-        Enter your address below.
-      </label>
-
-      <div>
-        <i class="fa fa-map-marker"></i>
-
-        <input type="text" placeholder="Street address, city, state">
+            <input type="text" class="form-control" id="inlineFormInputAddress1" placeholder="Street address, city, state">
+            </div>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block">
+              <label>Find Food</label>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row text-center" style="background-color: white"> <!-- does this operate over the entire div class? -->
+      <div class="col-md-offset-3 col-md-6">
+        <h2>How to Foodhub</h2>
+        <p class="margin-above-top-sm padding-inside-bottom-sm">Ordering from your favorite restaurant is even easier than eating.</p>
+      </div>
+    </div>
+    <div class="row text-center padding-inside-bottom-md"> <!-- does this operate over the entire div class? -->
+      <div class="col-md-4">
+        <img class="img-circle-large" src="assets/images/map.jpg">
+        <h2 style="font-size: 19px">The where</h2>
+        <p style="font-size: 14px">Browse menus from your favorite local restaurants.</p>
+      </div>
+      <div class="col-md-4">
+        <img class="img-circle-large" src="assets/images/menu.jpg">
+        <h2 style="font-size: 19px">The what</h2>
+        <p style="font-size: 14px">Browse menus from your favorite local restaurants.</p>
+      </div>
+      <div class="col-md-4">
+        <img class="img-circle-large" src="assets/images/delivery.jpg">
+        <h2 style="font-size: 19px">The delivery</h2>
+        <p style="font-size: 14px">Browse menus from your favorite local restaurants.</p>
+      </div>
+    </div>
+    <div class="row row-light-gray padding-inside-top-sm">
+      <h2 class="text-center padding-inside-bottom-sm">Sound bytes</h2>
+      <div class="col-md-3">
+      </div>
+    </div>
+    <div class="row row-light-gray padding-inside-bottom-sm">
+      <div class="col-md-1 text-left">
+        <img  class="img-circle-small" src="assets/images/user-1.jpg">
+      </div>
+      <div class="col-md-2 text-left">
+        <p style="font-size: 14px">
+          @Foodhub I love you, Foodhub! Just ordered me some grub, and I tell you, you folks make that part of my life easy. Thanks!
+        </p>
+        <div> <!-- this could be wrong -->
+          <h4>@xtinacousins</h4>
+        </div>
+      </div>
+      <div class="col-md-1 text-left">
+        <img  class="img-circle-small" src="assets/images/user-2.jpg">
+      </div>
+      <div class="col-md-2 text-left">
+        <p style="font-size: 14px">Made my first @Foodhub order today. So great to be able to order food and not have to talk to anyone.</p>
+        <div> <!-- this could be wrong -->
+          <h4>@udezekene</h4>
+        </div>
+      </div>
+      <div class="col-md-1 text-left">
+        <img  class="img-circle-small" src="assets/images/user-3.jpg">
+      </div>
+      <div class="col-md-2 text-left">
+        <p style="font-size: 14px">Shout out to Foodhub for making my life so so easy.</p>
+        <div> <!-- this could be wrong ROW-->
+          <h4>@adellecharles</h4>
+        </div>
+      </div>
+      <div class="col-md-1 text-left">
+        <img  class="img-circle-small" src="assets/images/user-4.jpg">
+      </div>
+      <div class="col-md-2 text-left">
+        <p style="font-size: 14px">Seriously, @Foodhub makes it easy for my coworkers and I to order food and get it to our office in a jiffy. FOOD!</p>
+        <div> <!-- this could be wrong -->
+          <h4>@vista</h4>
+        </div>
       </div>
     </div>
 
-    <button type="submit">
-      Find Food
-    </button>
-  </form>
-
-  <h2>
-    How to Foodhub
-  </h2>
-
-  <p>
-    Ordering from your favorite restaurant is even easier than eating.
-  </p>
-
-  <img src="assets/images/map.jpg">
-
-  <h4>
-    The where
-  </h4>
-
-  <p>
-    Browse menus from your favorite local restaurants.
-  </p>
-
-  <img src="assets/images/menu.jpg">
-
-  <h4>
-    The what
-  </h4>
-
-  <p>
-    Select what you want to eat. Submit your order.
-  </p>
-
-  <img src="assets/images/delivery.jpg">
-
-  <h4>
-    The delivery
-  </h4>
-
-  <p>
-    Get the door and enjoy your food!
-  </p>
-
-  <h2>
-    Sound bites
-  </h2>
-
-  <img src="assets/images/user-1.jpg">
-
-  <p>
-    @Foodhub I love you, Foodhub! Just ordered me some grub, and I tell you, you folks make that part of my life easy. Thanks!
-  </p>
-
-  <h4>
-    @xtinacousins
-  </h4>
-
-  <img src="assets/images/user-2.jpg">
-
-  <p>
-    Made my first @Foodhub order today. So great to be able to order food and not have to talk to anyone.
-  </p>
-
-  <h4>
-    @udezekene
-  </h4>
-
-  <img src="assets/images/user-3.jpg">
-
-  <p>
-    Shout out to Foodhub for making my life so so easy.
-  </p>
-
-  <h4>
-    @adellecharles
-  </h4>
-
-  <img src="assets/images/user-4.jpg">
-
-  <p>
-    Seriously, @Foodhub makes it easy for my coworkers and I to order food and get it to our office in a jiffy. FOOD!
-  </p>
-
-  <h4>
-    @vista
-  </h4>
-
-  <h2>
-    Download apps
-  </h2>
-
-  <p>
-    Millions of users and we want to befriend each one. 900+ cities and more than 35,000 restaurants.
-  </p>
-
-  <img src="assets/images/app-store-badge.png">
-
-  <img src="assets/images/google-play-badge.png">
-
-  <h2>Why order with Foodhub?</h2>
-
-  <img src="assets/images/gem.jpg">
-  <h4>Discover</h4>
-  <p>
-    We'll help you find hidden gems in your neighborhood.
-  </p>
-
-  <img src="assets/images/like.jpg">
-  <h4>Better</h4>
-  <p>
-    The more you use Foodhub, the better we are at making recommendations just for you.
-  </p>
-
-  <img src="assets/images/bite.jpg">
-  <h4>Food</h4>
-  <p>
-    Enjoy each bite all the more knowing your order supports local businesses.
-  </p>
-
-  <h2>About Foodhub</h2>
-
-  <p>Foodhub helps you find and order food from wherever you are. How it works: you type in an address, we tell you the restaurants that deliver to that locale as well as showing you droves of pickup restaurants near you. Want to be more specific? Search by cuisine, restaurant name or menu item. We'll filter your results accordingly. When you find what you're looking for, you can place your order online or by phone, free of charge. Oh, and we also give you access to reviews, coupons, special deals and a 24/7 customer care team that tracks each order and makes sure you get exactly what you want.</p>
-
-  <h4>Sign up for special offers</h4>
-
-  <form>
-    <div>
-      <input type="email" placeholder="Email">
+    <div class="row row-gray padding-inside-top-lg padding-inside-bottom-lg">
+      <div class="col-md-offset-3 col-md-6 margin-below-bottom-sm text-center text-white">
+        <h2>Download apps</h2>
+        <p>Millions of users and we want to befriend each one. 900+ cities and more than 35,000 restaurants.</p>
+      </div>
+      <div class="col-md-offset-4 col-md-4 margin-below-bottom-sm">
+        <img class="img-badge" src="assets/images/app-store-badge.png">
+        <img class="img-badge" src="assets/images/google-play-badge.png">
+      </div>
     </div>
-
-    <div>
-      <input type="number" placeholder="ZIP code">
+  </div>
+  <div class="row text-center row-light-gray">
+    <h2>Why order with Foodhub?</h2>
+    <div class="col-md-4">
+      <img class="img-circle-large" src="assets/images/gem.jpg">
+      <h4>Discover</h4>
+      <p>We'll help you find hidden gems in your neighborhood.</p>
     </div>
+    <div class="col-md-4">
+      <img class="img-circle-large" src="assets/images/like.jpg">
+      <h4>Better</h4>
+      <p>The more you use Foodhub, the better we are at making recommendations just for you.</p>
+    </div>
+    <div class="col-md-4">
+      <img class="img-circle-large" src="assets/images/bite.jpg">
+      <h4>Food</h4>
+      <p>Enjoy each bite all the more knowing your order supports local businesses.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 text-center margin-above-top-md margin-below-bottom-md">
+      <h2>About Foodhub</h2>
+    </div>
+    <div class="col-md-6 margin-above-top-md margin-below-bottom-md">
+      <p style="font-size: 14px">Foodhub helps you find and order food from wherever you are. How it works: you type in an address, we tell you the restaurants that deliver to that locale as well as showing you droves of pickup restaurants near you. Want to be more specific? Search by cuisine, restaurant name or menu item. We'll filter your results accordingly. When you find what you're looking for, you can place your order online or by phone, free of charge. Oh, and we also give you access to reviews, coupons, special deals and a 24/7 customer care team that tracks each order and makes sure you get exactly what you want.</p>
+    </div>
+  </div>
+  <div class="row row-purple text-white padding-inside-bottom-sm padding-inside-top-sm padding-inside-left-sm padding-inside-right-sm">
+    <div class="col-md-3">
+      <h4 class="margin-above-top-xs">Sign up for special offers</h4>
+      <form class="">
+        <div class="form-group padding-inside-bottom-xs">
+          <input type="email" class="form-control padding-inside-bottom-xs" placeholder="Email">
+        </div>
+        <div class="form-group padding-inside-bottom-xs">
+          <input type="number" class="form-control padding-inside-bottom-xs" placeholder="ZIP code">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary btn-block">Send me treats
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <h4>Get to know us</h4>
+      <ul class="list-unstyled" style="font-size:14px">
+        <li>About Grubhub</li>
+        <li>Our apps</li>
+        <li>Our blog</li>
+        <li>Careers</li>
+        <li>Investor relations</li>
+        <li>News</li>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <h4>Help</h4>
+      <ul class="list-unstyled" style="font-size:14px">
+        <li>FAQ</li>
+        <li>Contact us</li>
+      </ul>
+      <h4>Connect with us</h4>
+      <ul class="list-unstyled" style="font-size:14px">
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+        <li>YouTube</li>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <h4>Partner with us</h4>
+      <ul class="list-unstyled" style="font-size:14px">
+        <li>For restaurants</li>
+        <li>For drivers</li>
+        <li>For corporate accounts</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-    <button type="submit">Send me treats</button>
-  </form>
+<!-- <h2 class="margin-above-top-lg">
+Who delivers in your neighborhood?
+</h2>
 
-  <h4>Get to know us</h4>
+<form>
+<div>
+<label>
+Enter your address below.
+</label>
 
-  <ul>
-    <li>About Grubhub</li>
-    <li>Our apps</li>
-    <li>Our blog</li>
-    <li>Careers</li>
-    <li>Investor relations</li>
-    <li>News</li>
-  </ul>
+<div>
+<i class="fa fa-map-marker"></i>
+
+<input type="text" placeholder="Street address, city, state">
+</div>
+</div>
+
+<button type="submit">
+Find Food
+</button>
+</form>
+
+<h2>
+How to Foodhub
+</h2>
+
+<p>
+Ordering from your favorite restaurant is even easier than eating.
+</p>
+
+<img src="assets/images/map.jpg">
+
+<h4>
+The where
+</h4>
+
+<p>
+Browse menus from your favorite local restaurants.
+</p>
+
+<img src="assets/images/menu.jpg">
+
+<h4>
+The what
+</h4>
+
+<p>
+Select what you want to eat. Submit your order.
+</p>
+
+<img src="assets/images/delivery.jpg">
+
+<h4>
+The delivery
+</h4>
+
+<p>
+Get the door and enjoy your food!
+</p>
+
+<h2>
+Sound bites
+</h2>
+
+<img src="assets/images/user-1.jpg">
+
+<p>
+@Foodhub I love you, Foodhub! Just ordered me some grub, and I tell you, you folks make that part of my life easy. Thanks!
+</p>
+
+<h4>
+@xtinacousins
+</h4>
+
+<img src="assets/images/user-2.jpg">
+
+<p>
+Made my first @Foodhub order today. So great to be able to order food and not have to talk to anyone.
+</p>
+
+<h4>
+@udezekene
+</h4>
+
+<img src="assets/images/user-3.jpg">
+
+<p>
+Shout out to Foodhub for making my life so so easy.
+</p>
+
+<h4>
+@adellecharles
+</h4>
+
+<img src="assets/images/user-4.jpg">
+
+<p>
+Seriously, @Foodhub makes it easy for my coworkers and I to order food and get it to our office in a jiffy. FOOD!
+</p>
+
+<h4>
+@vista
+</h4>
+
+<h2>
+Download apps
+</h2>
+
+<p>
+Millions of users and we want to befriend each one. 900+ cities and more than 35,000 restaurants.
+</p>
+
+<img src="assets/images/app-store-badge.png">
+
+<img src="assets/images/google-play-badge.png">
+
+<h2>Why order with Foodhub?</h2>
+
+<img src="assets/images/gem.jpg">
+<h4>Discover</h4>
+<p>
+We'll help you find hidden gems in your neighborhood.
+</p>
+
+<img src="assets/images/like.jpg">
+<h4>Better</h4>
+<p>
+The more you use Foodhub, the better we are at making recommendations just for you.
+</p>
+
+<img src="assets/images/bite.jpg">
+<h4>Food</h4>
+<p>
+Enjoy each bite all the more knowing your order supports local businesses.
+</p>
+
+<h2>About Foodhub</h2>
+
+<p>Foodhub helps you find and order food from wherever you are. How it works: you type in an address, we tell you the restaurants that deliver to that locale as well as showing you droves of pickup restaurants near you. Want to be more specific? Search by cuisine, restaurant name or menu item. We'll filter your results accordingly. When you find what you're looking for, you can place your order online or by phone, free of charge. Oh, and we also give you access to reviews, coupons, special deals and a 24/7 customer care team that tracks each order and makes sure you get exactly what you want.</p>
+
+<h4>Sign up for special offers</h4>
+
+<form>
+<div>
+<input type="email" placeholder="Email">
+</div>
+
+<div>
+<input type="number" placeholder="ZIP code">
+</div>
+
+<button type="submit">Send me treats</button>
+</form>
+
+<h4>Get to know us</h4>
+
+<ul>
+<li>About Grubhub</li>
+<li>Our apps</li>
+<li>Our blog</li>
+<li>Careers</li>
+<li>Investor relations</li>
+<li>News</li>
+</ul>
 
 
-  <h4>Help</h4>
+<h4>Help</h4>
 
-  <ul>
-    <li>FAQ</li>
-    <li>Contact us</li>
-  </ul>
+<ul>
+<li>FAQ</li>
+<li>Contact us</li>
+</ul>
 
-  <h4>Connect with us</h4>
+<h4>Connect with us</h4>
 
-  <ul>
-    <li>Facebook</li>
-    <li>Twitter</li>
-    <li>Instagram</li>
-    <li>YouTube</li>
-  </ul>
+<ul>
+<li>Facebook</li>
+<li>Twitter</li>
+<li>Instagram</li>
+<li>YouTube</li>
+</ul>
 
 
-  <h4>Partner with us</h4>
+<h4>Partner with us</h4>
 
-  <ul>
-    <li>For restaurants</li>
-    <li>For drivers</li>
-    <li>For corporate accounts</li>
-  </ul>
+<ul>
+<li>For restaurants</li>
+<li>For drivers</li>
+<li>For corporate accounts</li>
+</ul> -->
 </body>
 </html>

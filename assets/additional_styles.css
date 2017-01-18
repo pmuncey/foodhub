@@ -10,6 +10,11 @@ h1, h2, h3, h4 {
 .navbar-brand {
   font-family: "Passion One";
   font-size: xx-large;
+  color: white;
+}
+
+.navbar-header {
+  background-color: red;
 }
 
 /* My standard vertical spacing classes */
@@ -88,4 +93,119 @@ h1, h2, h3, h4 {
 
 .margin-below-bottom-xl {
   margin-bottom: 200px;
+}
+
+/* Horizontal spacing */
+
+.padding-inside-left-xs {
+  padding-left: 10px;
+}
+
+.padding-inside-left-sm {
+  padding-left: 20px;
+}
+
+.padding-inside-left-md {
+  padding-left: 50px;
+}
+
+.padding-inside-left-lg {
+  padding-top: 150px;
+}
+
+.padding-inside-left-xl {
+  padding-top: 200px;
+}
+
+.padding-inside-right-xs {
+  padding-right: 10px;
+}
+
+.padding-inside-right-sm {
+  padding-right: 20px;
+}
+
+.padding-inside-right-md {
+  padding-right: 50px;
+}
+
+.padding-inside-right-lg {
+  padding-right: 150px;
+}
+
+.padding-inside-right-xl {
+  padding-right: 200px;
+}
+
+.img-circle-large {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+ .img-circle-small {
+   height: 50px;
+   width: 50px;
+   border-radius: 25px;
+ }
+
+ .img-badge {
+   width: 49%;
+   height: 60px;
+ }
+
+.img-banner {
+  width: 100%;
+  height: 275px;
+}
+
+.static {
+    position: absolute;
+}
+
+.text-white {
+  color: white;
+}
+
+.row {
+  clear:both;
+}
+
+.row-gray {
+  background-color: gray;
+}
+
+.row-light-gray {
+  background-color: rgb(238, 238, 238);
+}
+
+.row-purple {
+  background-color: rgb(50, 50, 170);
+}
+
+.row-red {
+  background-color: red;
+}
+.vcenter {
+  vertical-align: middle;
+}
+
+.navbar .navbar-default .navbar-fixed-top {
+  color: white;
+}
+
+.btn.btn-link {
+  color: white;
+}
+
+.btn.btn-link:hover {
+  color: white;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-19 {
+  font-size: 19px;
 }
